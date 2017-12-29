@@ -1,6 +1,6 @@
 
-<%@page import="sunrise.beans.User"%>
-<%@page import="sunrise.DAO.impl.ProductDAOimpl"%>
+<%@page import="nks.beans.User"%>
+<%@page import="nks.DAO.impl.ProductDAOimpl"%>
 <%@page import="org.springframework.beans.factory.annotation.Autowired"%>
 <%@ page language="java" contentType="text/html; charset=utf-8"
     pageEncoding="utf-8"%>

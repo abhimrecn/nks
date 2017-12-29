@@ -7,12 +7,12 @@
    http://www.springframework.org/schema/context 
    http://www.springframework.org/schema/context/spring-context-3.0.xsd">
 
-  	 <context:component-scan base-package="sunrise.controllers" />
-  	  <context:component-scan base-package="sunrise.*" />
-	<context:component-scan base-package="sunrise.beans" />
-	<context:component-scan base-package="sunrise.DAO" />
-	<context:component-scan base-package="sunrise.DAO.impl" />
-	<context:component-scan base-package="sunrise.mapper" />
+  	 <context:component-scan base-package="nks.controllers" />
+  	  <context:component-scan base-package="nks.*" />
+	<context:component-scan base-package="nks.beans" />
+	<context:component-scan base-package="nks.DAO" />
+	<context:component-scan base-package="nks.DAO.impl" />
+	<context:component-scan base-package="nks.mapper" />
 
    
 <bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
@@ -44,31 +44,31 @@
     	<property name="dataSource" ref="ds" />  
     </bean> 
    
-    <bean id="sdao" class="sunrise.DAO.impl.CategoryDAOimpl"> 
+    <bean id="sdao" class="nks.DAO.impl.CategoryDAOimpl"> 
    		<property name="JdbcTemplate" ref="myJTemplate" /> 
     </bean> 
    
-     <bean id="dao" class="sunrise.DAO.impl.UserDAOimpl"> 
+     <bean id="dao" class="nks.DAO.impl.UserDAOimpl"> 
    		<property name="JdbcTemplate" ref="myJTemplate" /> 
     </bean> 
     
-     <bean id="EmployeeDAO" class="sunrise.DAO.impl.EmployeDAOempl"> 
+     <bean id="EmployeeDAO" class="nks.DAO.impl.EmployeDAOempl"> 
    		<property name="JdbcTemplate" ref="myJTemplate" /> 
     </bean> 
   
-   <bean id="CustomerDAO" class="sunrise.DAO.impl.CustomerDAOimpl"> 
+   <bean id="CustomerDAO" class="nks.DAO.impl.CustomerDAOimpl"> 
    		<property name="JdbcTemplate" ref="myJTemplate" /> 
     </bean> 
     
-    <bean id="AdminDAO" class="sunrise.DAO.impl.AdminDAOimpl"> 
+    <bean id="AdminDAO" class="nks.DAO.impl.AdminDAOimpl"> 
    		<property name="JdbcTemplate" ref="myJTemplate" /> 
     </bean> 
     
-    <bean id="ProductDAO" class="sunrise.DAO.impl.ProductDAOimpl"> 
+    <bean id="ProductDAO" class="nks.DAO.impl.ProductDAOimpl"> 
    		<property name="JdbcTemplate" ref="myJTemplate" /> 
     </bean> 
      
-  	<bean id="OrdersDAO" class="sunrise.DAO.impl.OrdersDAOimpl"> 
+  	<bean id="OrdersDAO" class="nks.DAO.impl.OrdersDAOimpl"> 
    		<property name="JdbcTemplate" ref="myJTemplate" /> 
     </bean>
    
