@@ -491,184 +491,7 @@
 													<li class='span3'>
 														<div class='thumbnail'>
 															<i class='tag'></i> <a class='GetDetails' href='#showInfo'
-		                                                     value='3'><img src='themes/images/products/Amul.jpg' alt='' style='width: 200px; height: 150px;'></a>
-															<div class='caption'>
-																<h5>Amul milk</h5>
-																<h4>
-																	<a class='GetDetails' href='#showInfo' value='3'>VIEW</a>
-																	<span class='pull-right'>Rs 20.0</span>
-																</h4>
-															</div>
-														</div>
-													</li>
-													<li class='span3'>
-														<div class='thumbnail'>
-															<i class='tag'></i> <a class='GetDetails' href='#showInfo'
-																value='4'><img src='themes/images/products/chitale.jpeg' alt='' style='width: 200px; height: 150px;'></a>
-															<div class='caption'>
-																<h5>Chitale</h5>
-																<h4>
-																	<a class='GetDetails' href='#showInfo' value='4'>VIEW</a>
-																	<span class='pull-right'>Rs 20.0</span>
-																</h4>
-															</div>
-														</div>
-													</li>
-													<li class='span3'>
-														<div class='thumbnail'>
-															<i class='tag'></i> <a class='GetDetails' href='#showInfo'
-																value='12'><img src='themes/images/products/1.jpg'
-																alt='' style='width: 200px; height: 150px;'></a>
-															<div class='caption'>
-																<h5>Gokul 500 ML</h5>
-																<h4>
-																	<a class='GetDetails' href='#showInfo' value='12'>VIEW</a>
-																	<span class='pull-right'>Rs 30.0</span>
-																</h4>
-															</div>
-														</div>
-													</li>
-													<li class='span3'>
-														<div class='thumbnail'>
-															<i class='tag'></i> <a class='GetDetails' href='#showInfo'
-																value='13'><img src='themes/images/products/2.jpg'
-																alt='' style='width: 200px; height: 150px;'></a>
-															<div class='caption'>
-																<h5>Chitale</h5>
-																<h4>
-																	<a class='GetDetails' href='#showInfo' value='13'>VIEW</a>
-																	<span class='pull-right'>Rs 100.0</span>
-																</h4>
-															</div>
-														</div>
-													</li>
-												</ul>
-											</div>
-											<div class='item  '>
-												<ul class='thumbnails'>
-													<li class='span3'>
-														<div class='thumbnail'>
-															<i class='tag'></i> <a class='GetDetails' href='#showInfo'
-																value='6'><img
-																src='themes/images/products/lokmat.png'
-																alt='' style='width: 200px; height: 150px;'></a>
-															<div class='caption'>
-																<h5>Lokmat</h5>
-																<h4>
-																	<a class='GetDetails' href='#showInfo' value='6'>VIEW</a>
-																	<span class='pull-right'>Rs 5.0</span>
-																</h4>
-															</div>
-														</div>
-													</li>
-													<li class='span3'>
-														<div class='thumbnail'>
-															<i class='tag'></i> <a class='GetDetails' href='#showInfo'
-																value='22'><img src='themes/images/products/14.jpg'
-																alt='' style='width: 200px; height: 150px;'></a>
-															<div class='caption'>
-																<h5>Punya Nagari</h5>
-																<h4>
-																	<a class='GetDetails' href='#showInfo' value='22'>VIEW</a>
-																	<span class='pull-right'>Rs 20.0</span>
-																</h4>
-															</div>
-														</div>
-													</li>
-													<li class='span3'>
-														<div class='thumbnail'>
-															<i class='tag'></i> <a class='GetDetails' href='#showInfo'
-																value='23'><img src='themes/images/products/13.jpg'
-																alt='' style='width: 200px; height: 150px;'></a>
-															<div class='caption'>
-																<h5>Divya Marathi</h5>
-																<h4>
-																	<a class='GetDetails' href='#showInfo' value='23'>VIEW</a>
-																	<span class='pull-right'>Rs 20.0</span>
-																</h4>
-															</div>
-														</div>
-													</li>
-													<li class='span3'>
-														<div class='thumbnail'>
-															<i class='tag'></i> <a class='GetDetails' href='#showInfo'
-																value='24'><img src='themes/images/products/b2.jpg'
-																alt='' style='width: 200px; height: 150px;'></a>
-															<div class='caption'>
-																<h5>Lokmat</h5>
-																<h4>
-																	<a class='GetDetails' href='#showInfo' value='24'>VIEW</a>
-																	<span class='pull-right'>Rs 10.0</span>
-																</h4>
-															</div>
-														</div>
-													</li>
-												</ul>
-											</div>
-											<div class='item  '>
-												<ul class='thumbnails'>
-													<li class='span3'>
-														<div class='thumbnail'>
-															<i class='tag'></i> <a class='GetDetails' href='#showInfo'
-																value='10'><img src='themes/images/products/Rose.jpg' alt='' style='width: 200px; height: 150px;'></a>
-															<div class='caption'>
-																<h5>Rose</h5>
-																<h4>
-																	<a class='GetDetails' href='#showInfo' value='10'>VIEW</a>
-																	<span class='pull-right'>Rs 5.0</span>
-																</h4>
-															</div>
-														</div>
-													</li>
-													<li class='span3'>
-														<div class='thumbnail'>
-															<i class='tag'></i> <a class='GetDetails' href='#showInfo'
-																value='11'><img src='themes/images/products/Marigold.jpg' alt='' style='width: 200px; height: 150px;'></a>
-															<div class='caption'>
-																<h5>Marigold</h5>
-																<h4>
-																	<a class='GetDetails' href='#showInfo' value='11'>VIEW</a>
-																	<span class='pull-right'>Rs 10.0</span>
-																</h4>
-															</div>
-														</div>
-													</li>
-													<li class='span3'>
-														<div class='thumbnail'>
-															<i class='tag'></i> <a class='GetDetails' href='#showInfo'
-																value='16'><img src='themes/images/products/21.jpg'
-																alt='' style='width: 200px; height: 150px;'></a>
-															<div class='caption'>
-																<h5>Rose</h5>
-																<h4>
-																	<a class='GetDetails' href='#showInfo' value='16'>VIEW</a>
-																	<span class='pull-right'>Rs 100.0</span>
-																</h4>
-															</div>
-														</div>
-													</li>
-													<li class='span3'>
-														<div class='thumbnail'>
-															<i class='tag'></i> <a class='GetDetails' href='#showInfo'
-																value='17'><img src='themes/images/products/19.jpg'
-																alt='' style='width: 200px; height: 150px;'></a>
-															<div class='caption'>
-																<h5>Flowers Gerbera</h5>
-																<h4>
-																	<a class='GetDetails' href='#showInfo' value='17'>VIEW</a>
-																	<span class='pull-right'>Rs 50.0</span>
-																</h4>
-															</div>
-														</div>
-													</li>
-												</ul>
-											</div>
-											<div class='item  '>
-												<ul class='thumbnails'>
-													<li class='span3'>
-														<div class='thumbnail'>
-															<i class='tag'></i> <a class='GetDetails' href='#showInfo'
-																value='10'><img src='themes/images/products/PohaSev.jpg' alt='' style='width: 200px; height: 150px;'></a>
+																value='30'><img src='themes/images/products/PohaSev.jpg' alt='' style='width: 200px; height: 150px;'></a>
 															<div class='caption'>
 																<h5>Special Poha Sev</h5>
 																<h4>
@@ -681,7 +504,7 @@
 													<li class='span3'>
 														<div class='thumbnail'>
 															<i class='tag'></i> <a class='GetDetails' href='#showInfo'
-																value='16'><img src='themes/images/products/LaungSev.jpg'
+																value='31'><img src='themes/images/products/LaungSev.jpg'
 																alt='' style='width: 200px; height: 150px;'></a>
 															<div class='caption'>
 																<h5>Laung Sev</h5>
@@ -696,7 +519,7 @@
 													<li class='span3'>
 														<div class='thumbnail'>
 															<i class='tag'></i> <a class='GetDetails' href='#showInfo'
-																value='11'><img src='themes/images/products/LahusanSev.jpg' alt='' style='width: 200px; height: 150px;'></a>
+																value='32'><img src='themes/images/products/LahusanSev.jpg' alt='' style='width: 200px; height: 150px;'></a>
 															<div class='caption'>
 																<h5>Lahusan Sev</h5>
 																<h4>
@@ -713,7 +536,7 @@
 													<li class='span3'>
 														<div class='thumbnail'>
 															<i class='tag'></i> <a class='GetDetails' href='#showInfo'
-																value='16'><img src='themes/images/products/TeekaMixture.jpg'
+																value='33'><img src='themes/images/products/TeekaMixture.jpg'
 																alt='' style='width: 200px; height: 150px;'></a>
 															<div class='caption'>
 																<h5>Teeka Mixture</h5>
@@ -727,7 +550,7 @@
 													<li class='span3'>
 														<div class='thumbnail'>
 															<i class='tag'></i> <a class='GetDetails' href='#showInfo'
-																value='10'><img src='themes/images/products/IndoriMixture.jpg' alt='' style='width: 200px; height: 150px;'></a>
+																value='34'><img src='themes/images/products/IndoriMixture.jpg' alt='' style='width: 200px; height: 150px;'></a>
 															<div class='caption'>
 																<h5>Indori Mixture</h5>
 																<h4>
@@ -740,7 +563,7 @@
 													<li class='span3'>
 														<div class='thumbnail'>
 															<i class='tag'></i> <a class='GetDetails' href='#showInfo'
-																value='17'><img src='themes/images/products/FalhariMixture.jpg'
+																value='35'><img src='themes/images/products/FalhariMixture.jpg'
 																alt='' style='width: 200px; height: 150px;'></a>
 															<div class='caption'>
 																<h5>Falhari Mixture</h5>
@@ -759,7 +582,7 @@
 													<li class='span3'>
 														<div class='thumbnail'>
 															<i class='tag'></i> <a class='GetDetails' href='#showInfo'
-																value='11'><img src='themes/images/products/ChatpatiChanaDal.jpg' alt='' style='width: 200px; height: 150px;'></a>
+																value='36'><img src='themes/images/products/ChatpatiChanaDal.jpg' alt='' style='width: 200px; height: 150px;'></a>
 															<div class='caption'>
 																<h5>Chatpati ChanaDal</h5>
 																<h4>
@@ -772,7 +595,7 @@
 													<li class='span3'>
 														<div class='thumbnail'>
 															<i class='tag'></i> <a class='GetDetails' href='#showInfo'
-																value='16'><img src='themes/images/products/DhaniyaDal.jpg'
+																value='37'><img src='themes/images/products/DhaniyaDal.jpg'
 																alt='' style='width: 200px; height: 150px;'></a>
 															<div class='caption'>
 																<h5>Dhaniya Dal</h5>
@@ -787,7 +610,7 @@
 													<li class='span3'>
 														<div class='thumbnail'>
 															<i class='tag'></i> <a class='GetDetails' href='#showInfo'
-																value='17'><img src='themes/images/products/TeekhiChanaDal.jpg'
+																value='38'><img src='themes/images/products/TeekhiChanaDal.jpg'
 																alt='' style='width: 200px; height: 150px;'></a>
 															<div class='caption'>
 																<h5>Teekhi ChanaDal</h5>
@@ -805,7 +628,7 @@
 													<li class='span3'>
 														<div class='thumbnail'>
 															<i class='tag'></i> <a class='GetDetails' href='#showInfo'
-																value='11'><img src='themes/images/products/TastyDane.jpg' alt='' style='width: 200px; height: 150px;'></a>
+																value='39'><img src='themes/images/products/TastyDane.jpg' alt='' style='width: 200px; height: 150px;'></a>
 															<div class='caption'>
 																<h5>Tasty Dane</h5>
 																<h4>
@@ -818,7 +641,7 @@
 													<li class='span3'>
 														<div class='thumbnail'>
 															<i class='tag'></i> <a class='GetDetails' href='#showInfo'
-																value='17'><img src='themes/images/products/MasalaPeanut.jpg'
+																value='40'><img src='themes/images/products/MasalaPeanut.jpg'
 																alt='' style='width: 200px; height: 150px;'></a>
 															<div class='caption'>
 																<h5>Masala Peanut</h5>
@@ -833,71 +656,12 @@
 													<li class='span3'>
 														<div class='thumbnail'>
 															<i class='tag'></i> <a class='GetDetails' href='#showInfo'
-																value='10'><img src='themes/images/products/BlackPepperPeanut.jpg' alt='' style='width: 200px; height: 150px;'></a>
+																value='41'><img src='themes/images/products/BlackPepperPeanut.jpg' alt='' style='width: 200px; height: 150px;'></a>
 															<div class='caption'>
 																<h5>Black PepperPeanut</h5>
 																<h4>
 																	<a class='GetDetails' href='#showInfo' value='41'>VIEW</a>
 																	<span class='pull-right'>Rs 120.0</span>
-																</h4>
-															</div>
-														</div>
-													</li>
-												</ul>
-											</div>
-											
-											<div class='item  '>
-												<ul class='thumbnails'>
-													<li class='span3'>
-														<div class='thumbnail'>
-															<i class='tag'></i> <a class='GetDetails' href='#showInfo'
-																value='8'><img src='themes/images/products/bread-bun.jpg' alt='' style='width: 200px; height: 150px;'></a>
-															<div class='caption'>
-																<h5>Pav</h5>
-																<h4>
-																	<a class='GetDetails' href='#showInfo' value='8'>VIEW</a>
-																	<span class='pull-right'>Rs 8.0</span>
-																</h4>
-															</div>
-														</div>
-													</li>
-													<li class='span3'>
-														<div class='thumbnail'>
-															<i class='tag'></i> <a class='GetDetails' href='#showInfo'
-																value='9'><img src='themes/images/products/Cookies1.jpg' alt='' style='width: 200px; height: 150px;'></a>
-															<div class='caption'>
-																<h5>cookie</h5>
-																<h4>
-																	<a class='GetDetails' href='#showInfo' value='9'>VIEW</a>
-																	<span class='pull-right'>Rs 18.0</span>
-																</h4>
-															</div>
-														</div>
-													</li>
-													<li class='span3'>
-														<div class='thumbnail'>
-															<i class='tag'></i> <a class='GetDetails' href='#showInfo'
-																value='18'><img src='themes/images/products/5.jpg'
-																alt='' style='width: 200px; height: 150px;'></a>
-															<div class='caption'>
-																<h5>Bun Pav</h5>
-																<h4>
-																	<a class='GetDetails' href='#showInfo' value='18'>VIEW</a>
-																	<span class='pull-right'>Rs 20.0</span>
-																</h4>
-															</div>
-														</div>
-													</li>
-													<li class='span3'>
-														<div class='thumbnail'>
-															<i class='tag'></i> <a class='GetDetails' href='#showInfo'
-																value='19'><img src='themes/images/products/khari.png'
-																alt='' style='width: 200px; height: 150px;'></a>
-															<div class='caption'>
-																<h5>Khari</h5>
-																<h4>
-																	<a class='GetDetails' href='#showInfo' value='19'>VIEW</a>
-																	<span class='pull-right'>Rs 20.0</span>
 																</h4>
 															</div>
 														</div>
@@ -918,338 +682,200 @@
 
 									<ul class="thumbnails">
 
-										<li class='span3'><div class='thumbnail'>
-												<a class='GetDetails' href='#showInfo' value='6'><img
+									<li class='span3'><div class='thumbnail'>
+												<a class='GetDetails' href='#showInfo' value='30'><img
 													style='width: 200px; height: 150px;'
-													src='themes/images/products/lokmat.png' alt='' /></a>
+													src='themes/images/products/PohaSev.jpg' alt='' /></a>
 												<div class='caption'>
-													<h5>Lokmat</h5>
-													<p>Lokmat</p>
+													<h5>Special PohaSev</h5>
+													<p>Special PohaSev</p>
 													<h4 style='text-align: center'>
-														<a class='btn GetDetails' href='#showInfo' value='6'>
+														<a class='btn GetDetails' href='#showInfo' value='30'>
 															<i class='icon-zoom-in'></i>
-														</a> <a class='btn addToCart' value='6' href='#showInfo'>Add
+														</a> <a class='btn addToCart' value='30' href='#showInfo'>Add
 															to <i class='icon-shopping-cart'></i>
-														</a> <i class='btn btn-primary'>Rs5.0</i>
+														</a> <i class='btn btn-primary'>Rs100.0</i>
 													</h4>
 												</div>
 											</div></li>
-										<li class='span3'><div class='thumbnail'>
-												<a class='GetDetails' href='#showInfo' value='22'><img
-													style='width: 200px; height: 150px;'
-													src='themes/images/products/14.jpg' alt='' /></a>
-												<div class='caption'>
-													<h5>Punya Nagari</h5>
-													<p>Punya Nagari</p>
-													<h4 style='text-align: center'>
-														<a class='btn GetDetails' href='#showInfo' value='22'>
-															<i class='icon-zoom-in'></i>
-														</a> <a class='btn addToCart' value='22' href='#showInfo'>Add
-															to <i class='icon-shopping-cart'></i>
-														</a> <i class='btn btn-primary'>Rs20.0</i>
-													</h4>
-												</div>
-											</div></li>
-										<li class='span3'><div class='thumbnail'>
-												<a class='GetDetails' href='#showInfo' value='23'><img
-													style='width: 200px; height: 150px;'
-													src='themes/images/products/13.jpg' alt='' /></a>
-												<div class='caption'>
-													<h5>Divya Marathi</h5>
-													<p>Divya Marathi</p>
-													<h4 style='text-align: center'>
-														<a class='btn GetDetails' href='#showInfo' value='23'>
-															<i class='icon-zoom-in'></i>
-														</a> <a class='btn addToCart' value='23' href='#showInfo'>Add
-															to <i class='icon-shopping-cart'></i>
-														</a> <i class='btn btn-primary'>Rs20.0</i>
-													</h4>
-												</div>
-											</div></li>
-										<li class='span3'><div class='thumbnail'>
-												<a class='GetDetails' href='#showInfo' value='24'><img
-													style='width: 200px; height: 150px;'
-													src='themes/images/products/b2.jpg' alt='' /></a>
-												<div class='caption'>
-													<h5>Lokmat</h5>
-													<p>Lokmat-Hindi</p>
-													<h4 style='text-align: center'>
-														<a class='btn GetDetails' href='#showInfo' value='24'>
-															<i class='icon-zoom-in'></i>
-														</a> <a class='btn addToCart' value='24' href='#showInfo'>Add
-															to <i class='icon-shopping-cart'></i>
-														</a> <i class='btn btn-primary'>Rs10.0</i>
-													</h4>
-												</div>
-											</div></li>
-										<li class='span3'><div class='thumbnail'>
-												<a class='GetDetails' href='#showInfo' value='25'><img
-													style='width: 200px; height: 150px;'
-													src='themes/images/products/timesOfIndia.png' alt='' /></a>
-												<div class='caption'>
-													<h5>Indian Times</h5>
-													<p>Indian Times</p>
-													<h4 style='text-align: center'>
-														<a class='btn GetDetails' href='#showInfo' value='25'>
-															<i class='icon-zoom-in'></i>
-														</a> <a class='btn addToCart' value='25' href='#showInfo'>Add
-															to <i class='icon-shopping-cart'></i>
-														</a> <i class='btn btn-primary'>Rs10.0</i>
-													</h4>
-												</div>
-											</div></li>
-										<li class='span3'><div class='thumbnail'>
-												<a class='GetDetails' href='#showInfo' value='26'><img
-													style='width: 200px; height: 150px;'
-													src='themes/images/products/12.jpg' alt='' /></a>
-												<div class='caption'>
-													<h5>Hindustan Times</h5>
-													<p>Hindustan Times</p>
-													<h4 style='text-align: center'>
-														<a class='btn GetDetails' href='#showInfo' value='26'>
-															<i class='icon-zoom-in'></i>
-														</a> <a class='btn addToCart' value='26' href='#showInfo'>Add
-															to <i class='icon-shopping-cart'></i>
-														</a> <i class='btn btn-primary'>Rs10.0</i>
-													</h4>
-												</div>
-											</div></li>
-										<li class='span3'><div class='thumbnail'>
-												<a class='GetDetails' href='#showInfo' value='27'><img
-													style='width: 200px; height: 150px;'
-													src='themes/images/products/10.jpg' alt='' /></a>
-												<div class='caption'>
-													<h5>Western Times</h5>
-													<p>Western Times</p>
-													<h4 style='text-align: center'>
-														<a class='btn GetDetails' href='#showInfo' value='27'>
-															<i class='icon-zoom-in'></i>
-														</a> <a class='btn addToCart' value='27' href='#showInfo'>Add
-															to <i class='icon-shopping-cart'></i>
-														</a> <i class='btn btn-primary'>Rs10.0</i>
-													</h4>
-												</div>
-											</div></li>
-										<li class='span3'><div class='thumbnail'>
-												<a class='GetDetails' href='#showInfo' value='28'><img
-													style='width: 200px; height: 150px;'
-													src='themes/images/products/17.jpg' alt='' /></a>
-												<div class='caption'>
-													<h5>Dainik Bhaskar</h5>
-													<p>Dainik Bhaskar</p>
-													<h4 style='text-align: center'>
-														<a class='btn GetDetails' href='#showInfo' value='28'>
-															<i class='icon-zoom-in'></i>
-														</a> <a class='btn addToCart' value='28' href='#showInfo'>Add
-															to <i class='icon-shopping-cart'></i>
-														</a> <i class='btn btn-primary'>Rs10.0</i>
-													</h4>
-												</div>
-											</div></li>
-										<li class='span3'><div class='thumbnail'>
-												<a class='GetDetails' href='#showInfo' value='29'><img
-													style='width: 200px; height: 150px;'
-													src='themes/images/products/18.jpg' alt='' /></a>
-												<div class='caption'>
-													<h5>Navbharta Times</h5>
-													<p>Navbharta Times</p>
-													<h4 style='text-align: center'>
-														<a class='btn GetDetails' href='#showInfo' value='29'>
-															<i class='icon-zoom-in'></i>
-														</a> <a class='btn addToCart' value='29' href='#showInfo'>Add
-															to <i class='icon-shopping-cart'></i>
-														</a> <i class='btn btn-primary'>Rs10.0</i>
-													</h4>
-												</div>
-											</div></li>
-									
 										<li class='span3'><div class='thumbnail'>
 												<a class='GetDetails' href='#showInfo' value='31'><img
-													style='width: 200px; height: 150px;' src='themes/images/products/sakal.png' alt='' /></a>
+													style='width: 200px; height: 150px;'
+													src='themes/images/products/LaungSev.jpg' alt='' /></a>
 												<div class='caption'>
-													<h5>Sakal Marathi New</h5>
-													<p>20 Pages</p>
+													<h5>Laung Sev</h5>
+													<p>Laung Sev</p>
 													<h4 style='text-align: center'>
 														<a class='btn GetDetails' href='#showInfo' value='31'>
 															<i class='icon-zoom-in'></i>
 														</a> <a class='btn addToCart' value='31' href='#showInfo'>Add
 															to <i class='icon-shopping-cart'></i>
-														</a> <i class='btn btn-primary'>Rs20.0</i>
+														</a> <i class='btn btn-primary'>Rs100.0</i>
 													</h4>
 												</div>
 											</div></li>
 										<li class='span3'><div class='thumbnail'>
-												<a class='GetDetails' href='#showInfo' value='10'><img
-													style='width: 200px; height: 150px;' src='themes/images/products/Rose.jpg' alt='' /></a>
-												<div class='caption'>
-													<h5>Rose</h5>
-													<p>red</p>
-													<h4 style='text-align: center'>
-														<a class='btn GetDetails' href='#showInfo' value='10'>
-															<i class='icon-zoom-in'></i>
-														</a> <a class='btn addToCart' value='10' href='#showInfo'>Add
-															to <i class='icon-shopping-cart'></i>
-														</a> <i class='btn btn-primary'>Rs5.0</i>
-													</h4>
-												</div>
-											</div></li>
-										<li class='span3'><div class='thumbnail'>
-												<a class='GetDetails' href='#showInfo' value='11'><img
-													style='width: 200px; height: 150px;' src='themes/images/products/Marigold.jpg' alt='' /></a>
-												<div class='caption'>
-													<h5>Marigold</h5>
-													<p>Yellow</p>
-													<h4 style='text-align: center'>
-														<a class='btn GetDetails' href='#showInfo' value='11'>
-															<i class='icon-zoom-in'></i>
-														</a> <a class='btn addToCart' value='11' href='#showInfo'>Add
-															to <i class='icon-shopping-cart'></i>
-														</a> <i class='btn btn-primary'>Rs10.0</i>
-													</h4>
-												</div>
-											</div></li>
-										<li class='span3'><div class='thumbnail'>
-												<a class='GetDetails' href='#showInfo' value='16'><img
+												<a class='GetDetails' href='#showInfo' value='32'><img
 													style='width: 200px; height: 150px;'
-													src='themes/images/products/21.jpg' alt='' /></a>
+													src='themes/images/products/LahusanSev.jpg' alt='' /></a>
 												<div class='caption'>
-													<h5>Rose</h5>
-													<p>Flowers</p>
+													<h5>Lahusan Sev</h5>
+													<p>Lahusan Sev</p>
 													<h4 style='text-align: center'>
-														<a class='btn GetDetails' href='#showInfo' value='16'>
+														<a class='btn GetDetails' href='#showInfo' value='32'>
 															<i class='icon-zoom-in'></i>
-														</a> <a class='btn addToCart' value='16' href='#showInfo'>Add
+														</a> <a class='btn addToCart' value='32' href='#showInfo'>Add
 															to <i class='icon-shopping-cart'></i>
-														</a> <i class='btn btn-primary'>Rs30.0</i>
+														</a> <i class='btn btn-primary'>Rs100.0</i>
 													</h4>
 												</div>
 											</div></li>
 										<li class='span3'><div class='thumbnail'>
-												<a class='GetDetails' href='#showInfo' value='17'><img
+												<a class='GetDetails' href='#showInfo' value='33'><img
 													style='width: 200px; height: 150px;'
-													src='themes/images/products/19.jpg' alt='' /></a>
+													src='themes/images/products/TeekaMixture.jpg' alt='' /></a>
 												<div class='caption'>
-													<h5>Flowers Gerbera</h5>
-													<p>Flowers</p>
+													<h5>Teeka Mixture</h5>
+													<p>Teeka Mixture</p>
 													<h4 style='text-align: center'>
-														<a class='btn GetDetails' href='#showInfo' value='17'>
+														<a class='btn GetDetails' href='#showInfo' value='33'>
 															<i class='icon-zoom-in'></i>
-														</a> <a class='btn addToCart' value='17' href='#showInfo'>Add
+														</a> <a class='btn addToCart' value='33' href='#showInfo'>Add
 															to <i class='icon-shopping-cart'></i>
-														</a> <i class='btn btn-primary'>Rs50.0</i>
+														</a> <i class='btn btn-primary'>Rs120.0</i>
 													</h4>
 												</div>
 											</div></li>
 										<li class='span3'><div class='thumbnail'>
-												<a class='GetDetails' href='#showInfo' value='8'><img
-													style='width: 200px; height: 150px;' src='themes/images/products/bread-bun.jpg' alt='' /></a>
-												<div class='caption'>
-													<h5>Pav</h5>
-													<p>maida</p>
-													<h4 style='text-align: center'>
-														<a class='btn GetDetails' href='#showInfo' value='8'>
-															<i class='icon-zoom-in'></i>
-														</a> <a class='btn addToCart' value='8' href='#showInfo'>Add
-															to <i class='icon-shopping-cart'></i>
-														</a> <i class='btn btn-primary'>Rs20.0</i>
-													</h4>
-												</div>
-											</div></li>
-										<li class='span3'><div class='thumbnail'>
-												<a class='GetDetails' href='#showInfo' value='9'><img
-													style='width: 200px; height: 150px;' src='themes/images/products/cookies.jpg' alt='' /></a>
-												<div class='caption'>
-													<h5>cookie</h5>
-													<p>cookie</p>
-													<h4 style='text-align: center'>
-														<a class='btn GetDetails' href='#showInfo' value='9'>
-															<i class='icon-zoom-in'></i>
-														</a> <a class='btn addToCart' value='9' href='#showInfo'>Add
-															to <i class='icon-shopping-cart'></i>
-														</a> <i class='btn btn-primary'>Rs18.0</i>
-													</h4>
-												</div>
-											</div></li>
-										<li class='span3'><div class='thumbnail'>
-												<a class='GetDetails' href='#showInfo' value='18'><img
+												<a class='GetDetails' href='#showInfo' value='34'><img
 													style='width: 200px; height: 150px;'
-													src='themes/images/products/5.jpg' alt='' /></a>
+													src='themes/images/products/IndoriMixture.jpg' alt='' /></a>
 												<div class='caption'>
-													<h5>Bun Pav</h5>
-													<p>Bun Pav</p>
+													<h5>Indori Mixture</h5>
+													<p>Indori Mixture</p>
 													<h4 style='text-align: center'>
-														<a class='btn GetDetails' href='#showInfo' value='18'>
+														<a class='btn GetDetails' href='#showInfo' value='34'>
 															<i class='icon-zoom-in'></i>
-														</a> <a class='btn addToCart' value='18' href='#showInfo'>Add
+														</a> <a class='btn addToCart' value='34' href='#showInfo'>Add
 															to <i class='icon-shopping-cart'></i>
-														</a> <i class='btn btn-primary'>Rs20.0</i>
+														</a> <i class='btn btn-primary'>Rs120.0</i>
 													</h4>
 												</div>
 											</div></li>
 										<li class='span3'><div class='thumbnail'>
-												<a class='GetDetails' href='#showInfo' value='19'><img
+												<a class='GetDetails' href='#showInfo' value='35'><img
 													style='width: 200px; height: 150px;'
-													src='themes/images/products/khari.png' alt='' /></a>
+													src='themes/images/products/FalhariMixture.jpg' alt='' /></a>
 												<div class='caption'>
-													<h5>Khari</h5>
-													<p>Khari</p>
+													<h5>Falhari Mixture</h5>
+													<p>Falhari Mixture</p>
 													<h4 style='text-align: center'>
-														<a class='btn GetDetails' href='#showInfo' value='19'>
+														<a class='btn GetDetails' href='#showInfo' value='35'>
 															<i class='icon-zoom-in'></i>
-														</a> <a class='btn addToCart' value='19' href='#showInfo'>Add
+														</a> <a class='btn addToCart' value='35' href='#showInfo'>Add
 															to <i class='icon-shopping-cart'></i>
-														</a> <i class='btn btn-primary'>Rs20.0</i>
+														</a> <i class='btn btn-primary'>Rs120.0</i>
 													</h4>
 												</div>
 											</div></li>
 										<li class='span3'><div class='thumbnail'>
-												<a class='GetDetails' href='#showInfo' value='20'><img
+												<a class='GetDetails' href='#showInfo' value='36'><img
 													style='width: 200px; height: 150px;'
-													src='themes/images/products/b1.jpg' alt='' /></a>
+													src='themes/images/products/ChatpatiChanaDal.jpg' alt='' /></a>
 												<div class='caption'>
-													<h5>Cookies</h5>
-													<p>Cookies</p>
+													<h5>Chatpati ChanaDal</h5>
+													<p>Chatpati ChanaDal</p>
 													<h4 style='text-align: center'>
-														<a class='btn GetDetails' href='#showInfo' value='20'>
+														<a class='btn GetDetails' href='#showInfo' value='36'>
 															<i class='icon-zoom-in'></i>
-														</a> <a class='btn addToCart' value='20' href='#showInfo'>Add
+														</a> <a class='btn addToCart' value='36' href='#showInfo'>Add
 															to <i class='icon-shopping-cart'></i>
-														</a> <i class='btn btn-primary'>Rs10.0</i>
+														</a> <i class='btn btn-primary'>Rs120.0</i>
 													</h4>
 												</div>
 											</div></li>
 										<li class='span3'><div class='thumbnail'>
-												<a class='GetDetails' href='#showInfo' value='21'><img
+												<a class='GetDetails' href='#showInfo' value='37'><img
 													style='width: 200px; height: 150px;'
-													src='themes/images/products/6.jpg' alt='' /></a>
+													src='themes/images/products/DhaniyaDal.jpg' alt='' /></a>
 												<div class='caption'>
-													<h5>Pav</h5>
-													<p>Pav</p>
+													<h5>Dhaniya Dal</h5>
+													<p>Dhaniya Dal</p>
 													<h4 style='text-align: center'>
-														<a class='btn GetDetails' href='#showInfo' value='21'>
+														<a class='btn GetDetails' href='#showInfo' value='37'>
 															<i class='icon-zoom-in'></i>
-														</a> <a class='btn addToCart' value='21' href='#showInfo'>Add
+														</a> <a class='btn addToCart' value='28' href='#showInfo'>Add
 															to <i class='icon-shopping-cart'></i>
-														</a> <i class='btn btn-primary'>Rs20.0</i>
+														</a> <i class='btn btn-primary'>Rs120.0</i>
 													</h4>
 												</div>
 											</div></li>
-										<li class="span3">
-											<div class="thumbnail">
-												<a href="product_details.html"><img
-													src="themes/images/products/11.jpg" alt="" /></a>
-												<div class="caption">
-													<h5>Indian Express</h5>
-													<p>Indian Express</p>
-													<h4 style="text-align: center">
-														<a class="btn" href="product_details.html"> <i
-															class="icon-zoom-in"></i></a> <a class="btn" href="#">Add
-															to <i class="icon-shopping-cart"></i>
-														</a> <a class="btn btn-primary" href="#">Rs25.00</a>
+	
+
+										<li class='span3'><div class='thumbnail'>
+												<a class='GetDetails' href='#showInfo' value='38'><img
+													style='width: 200px; height: 150px;'
+													src='themes/images/products/TeekhiChanaDal.jpg' alt='' /></a>
+												<div class='caption'>
+													<h5>Teekhi ChanaDal</h5>
+													<p>Teekhi ChanaDal</p>
+													<h4 style='text-align: center'>
+														<a class='btn GetDetails' href='#showInfo' value='38'>
+															<i class='icon-zoom-in'></i>
+														</a> <a class='btn addToCart' value='6' href='#showInfo'>Add
+															to <i class='icon-shopping-cart'></i>
+														</a> <i class='btn btn-primary'>Rs120.0</i>
 													</h4>
 												</div>
-											</div>
-										</li>
+											</div></li>
+										<li class='span3'><div class='thumbnail'>
+												<a class='GetDetails' href='#showInfo' value='39'><img
+													style='width: 200px; height: 150px;'
+													src='themes/images/products/TastyDane.jpg' alt='' /></a>
+												<div class='caption'>
+													<h5>Tasty Dane</h5>
+													<p>Tasty Dane</p>
+													<h4 style='text-align: center'>
+														<a class='btn GetDetails' href='#showInfo' value='39'>
+															<i class='icon-zoom-in'></i>
+														</a> <a class='btn addToCart' value='39' href='#showInfo'>Add
+															to <i class='icon-shopping-cart'></i>
+														</a> <i class='btn btn-primary'>Rs120.0</i>
+													</h4>
+												</div>
+											</div></li>
+										<li class='span3'><div class='thumbnail'>
+												<a class='GetDetails' href='#showInfo' value='40'><img
+													style='width: 200px; height: 150px;'
+													src='themes/images/products/MasalaPeanut.jpg' alt='' /></a>
+												<div class='caption'>
+													<h5>Masala Peanut</h5>
+													<p>Masala Peanut</p>
+													<h4 style='text-align: center'>
+														<a class='btn GetDetails' href='#showInfo' value='40'>
+															<i class='icon-zoom-in'></i>
+														</a> <a class='btn addToCart' value='40' href='#showInfo'>Add
+															to <i class='icon-shopping-cart'></i>
+														</a> <i class='btn btn-primary'>Rs120.0</i>
+													</h4>
+												</div>
+											</div></li>
+										<li class='span3'><div class='thumbnail'>
+												<a class='GetDetails' href='#showInfo' value='41'><img
+													style='width: 200px; height: 150px;'
+													src='themes/images/products/BlackPepperPeanut.jpg' alt='' /></a>
+												<div class='caption'>
+													<h5>BlackPepper Peanut</h5>
+													<p>BlackPepper Peanut</p>
+													<h4 style='text-align: center'>
+														<a class='btn GetDetails' href='#showInfo' value='41'>
+															<i class='icon-zoom-in'></i>
+														</a> <a class='btn addToCart' value='41' href='#showInfo'>Add
+															to <i class='icon-shopping-cart'></i>
+														</a> <i class='btn btn-primary'>Rs120.0</i>
+													</h4>
+												</div>
+											</div></li>
 									</ul>
 								</div>
 								</ul>
