@@ -230,7 +230,7 @@ public class ProductDAOimpl implements ProductDAO {
 		str+="<td>Rs "+total+"</td></tr>";
 		str+="<tr><td colspan='6' style='text-align:right'>Total Discount:	</td>";
 		str+="<td>Rs "+discount+"</td></tr>";
-		str+="<tr><td colspan='6' style='text-align:right'>Total Service Charges:	</td>";
+		str+="<tr><td colspan='6' style='text-align:right'>Total Delivery Charges:	</td>";
 		if(total==0)
 		{
 			str+="<td>Rs 0</td></tr>";
@@ -249,7 +249,7 @@ public class ProductDAOimpl implements ProductDAO {
 		str+="</tbody></table>";
 		
 		
-		  str+="<a href='/SunriseBasketMVC/index.html' class='btn btn-large'><i class='icon-arrow-left'></i> Continue Shopping </a>";
+		  str+="<a href='/NamkeenKeShaukeen/index.html' class='btn btn-large'><i class='icon-arrow-left'></i> Continue Shopping </a>";
 
 		  
 		  if(total!=0)
@@ -298,7 +298,7 @@ str+="<table class='table table-bordered'><thead> <tr> <th>Product</th> <th>Desc
 		str+="<td>Rs "+total+"</td></tr>";
 		str+="<tr><td colspan='6' style='text-align:right'>Total Discount:	</td>";
 		str+="<td>Rs "+discount+"</td></tr>";
-		str+="<tr><td colspan='6' style='text-align:right'>Total Service Charges:	</td>";
+		str+="<tr><td colspan='6' style='text-align:right'>Total Delivery Charges:	</td>";
 		if(total==0)
 		{
 			str+="<td>Rs 0</td></tr>";
@@ -318,7 +318,7 @@ str+="<table class='table table-bordered'><thead> <tr> <th>Product</th> <th>Desc
 		
 		
 		
-		  str+="<a href='/SunriseBasketMVC/index.html' class='btn btn-large'><i class='icon-arrow-left'></i> Continue Shopping </a>";
+		  str+="<a href='/NamkeenKeShaukeen/index.html' class='btn btn-large'><i class='icon-arrow-left'></i> Continue Shopping </a>";
 
          // str+="<a href='#showProdDetails' id='placeOrder' class='btn btn-large pull-right'>Next <i class='icon-arrow-right'></i></a>";
          if(total!=0)
@@ -355,9 +355,9 @@ str+="<table class='table table-bordered'><thead> <tr> <th>Product</th> <th>Desc
 
 	    	str+="</td>";
 	    
-	    	str+="<td>"+p.getPrice()+"</td>";total+=q*p.getPrice()*days;
-	    	str+="<td colspan='2'>"+q+"(Quant)*"+p.getPrice()+"(Price)*"+days+"(days)="+q*p.getPrice()*days+"</td>";
-	    	str+="<td>"+q*p.getPrice()*days+"</td>";
+	    	str+="<td>"+p.getPrice()+"</td>";total+=q*p.getPrice();
+	    	str+="<td colspan='2'>"+q+"(Quant)*"+p.getPrice()+"(Price)="+q*p.getPrice()+"</td>";
+	    	str+="<td>"+q*p.getPrice()+"</td>";
 	  
 	    	str+="</tr>";
 	    	
@@ -367,7 +367,7 @@ str+="<table class='table table-bordered'><thead> <tr> <th>Product</th> <th>Desc
 	str+="<td>Rs "+total+"</td></tr>";
 	str+="<tr><td colspan='6' style='text-align:right'>Total Discount:	</td>";
 	str+="<td>Rs "+discount+"</td></tr>";
-	str+="<tr><td colspan='6' style='text-align:right'>Total Service Charges:	</td>";
+	str+="<tr><td colspan='6' style='text-align:right'>Total Delivery Charges:	</td>";
 	if(total==0)
 	{
 		str+="<td>Rs 0</td></tr>";

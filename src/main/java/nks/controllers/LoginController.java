@@ -145,10 +145,22 @@ public class LoginController {
 		return new ModelAndView("contact");
 	}
 	
+	@RequestMapping("/submitContact")
+	public ModelAndView submitContact(HttpServletRequest request,SessionStatus sessionStatus){
+		System.out.println("submitContact controller ");
+		String fname=request.getParameter("inputFname");
+		String emailid=request.getParameter("input_email");
+		String	contactno=request.getParameter("contactno");
+		String message = request.getParameter("message");
+
+		EmailUtil.recievedContact(fname +" has send following message : "+message+" His contact no is :"+contactno, emailid, contactno);
+		return new ModelAndView("redirect:index.html");
+	}
+	
 	@RequestMapping("/register")
 	public ModelAndView register(HttpServletRequest request,SessionStatus sessionStatus){
 		System.out.println("register controller ");
-		return new ModelAndView("register");
+		return new ModelAndView("redirect:index.html");
 	}
 	
 	@RequestMapping("/registerCustomer")
@@ -869,8 +881,8 @@ public class LoginController {
 		public @ResponseBody String paymentProceed(HttpServletRequest request,@ModelAttribute("user") Customer c){
 		            String str="<div class='control-group'><div class='controls'><h4>Your address:</h4><p>"+c.getAddress()+", "+c.getCity()+", <br>"+c.getState()+"-"+c.getPincode()+".</P></div></div>";
 		                           str+="<div class='control-group'><label class='control-label' for='inputPhone'>Phone</label><div class='controls'><input class='span3'  type='text' id='phone' placeholder='"+c.getContactNo()+"' readonly></div></div>";
-	                               str+="<div class='control-group'><label class='control-label' for='inputFromDate'>Place order From Date</label><div class='controls'><input class='span3'  type='date' id='cal1' placeholder='dd-mm-yyyy' required></div></div>";
-		                           str+="<div class='control-group'><label class='control-label' for='inputToDate'>Place order To Date</label><div class='controls'><input class='span3'  type='date' id='cal2' placeholder='dd-mm-yyyy' required></div></div>";
+//	                               str+="<div class='control-group'><label class='control-label' for='inputFromDate'>Place order From Date</label><div class='controls'><input class='span3'  type='date' id='cal1' placeholder='dd-mm-yyyy' required></div></div>";
+//		                           str+="<div class='control-group'><label class='control-label' for='inputToDate'>Place order To Date</label><div class='controls'><input class='span3'  type='date' id='cal2' placeholder='dd-mm-yyyy' required></div></div>";
 		                           str+="<div class='btn-group' ><input class='btn btn-success' type='submit' id='submit1' value='REVIEW ORDER' ></div>";
 		                     
 		                           return str;
@@ -881,33 +893,33 @@ public class LoginController {
         public @ResponseBody String reviewOrder(HttpServletRequest request,@ModelAttribute("user") Customer c,@ModelAttribute("cart") TreeMap<Product,Integer> cart){
 			System.out.println("from reviewOrder controller");
 		
-	    	 Calendar date1=Calendar.getInstance();
-			 Calendar date2=Calendar.getInstance();
-			 System.out.println("date 1 is "+request.getParameter("date1"));
-			 System.out.println("date 2 is "+request.getParameter("date2"));
-			 
-			 String day1=request.getParameter("date1").substring(8,10);
-			 String day2=request.getParameter("date2").substring(8,10);
-			
-			 String month1=request.getParameter("date1").substring(5,7);
-			 String month2=request.getParameter("date2").substring(5,7);
-			 
-			 System.out.println(day1+" "+day2+" "+month1+" "+month2);
-			 String year1=request.getParameter("date1").substring(0,4);
-			 String year2=request.getParameter("date2").substring(0,4);
-			
-			 date1.set(Integer.parseInt(year1),Integer.parseInt(month1),Integer.parseInt(day1));
-			 date2.set(Integer.parseInt(year2),Integer.parseInt(month2),Integer.parseInt(day2));
-			
-			 long diff=date2.getTimeInMillis()-date1.getTimeInMillis();
-		     long diffInDays = diff / (24 * 60 * 60 * 1000);
+//	    	 Calendar date1=Calendar.getInstance();
+//			 Calendar date2=Calendar.getInstance();
+//			 System.out.println("date 1 is "+request.getParameter("date1"));
+//			 System.out.println("date 2 is "+request.getParameter("date2"));
+//			 
+//			 String day1=request.getParameter("date1").substring(8,10);
+//			 String day2=request.getParameter("date2").substring(8,10);
+//			
+//			 String month1=request.getParameter("date1").substring(5,7);
+//			 String month2=request.getParameter("date2").substring(5,7);
+//			 
+//			 System.out.println(day1+" "+day2+" "+month1+" "+month2);
+//			 String year1=request.getParameter("date1").substring(0,4);
+//			 String year2=request.getParameter("date2").substring(0,4);
+//			
+//			 date1.set(Integer.parseInt(year1),Integer.parseInt(month1),Integer.parseInt(day1));
+//			 date2.set(Integer.parseInt(year2),Integer.parseInt(month2),Integer.parseInt(day2));
+//			
+//			 long diff=date2.getTimeInMillis()-date1.getTimeInMillis();
+//		     long diffInDays = diff / (24 * 60 * 60 * 1000);
 			
 		     String str="<div><div class='control-group'><div class='controls'><h4>Your address:</h4>"+c.getAddress()+", "+c.getCity()+", <br>"+c.getState()+"-"+c.getPincode()+".</P></div></div>";
              str+="<div class='control-group'><div class='controls'><h4>Your Phone:</h4><p>"+c.getContactNo()+".</P></div></div>";
-             str+="<div class='control-group'>Your order is from this date: <div id='date1'>"+request.getParameter("date1")+"</div> Your order is till date:<div id='date2'>"+request.getParameter("date2")+"</div></div>";
+            // str+="<div class='control-group'>Your order is from this date: <div id='date1'>"+request.getParameter("date1")+"</div> Your order is till date:<div id='date2'>"+request.getParameter("date2")+"</div></div>";
              /* str+="<div class='btn-group' ><input class='btn btn-success' type='submit' id='reviewOrder' value='REVIEW ORDER' ></div>";*/
-             str+=prodDAO.OrderSummaryTable(cart,((int) diffInDays)+1);
-             str+="<a href='#showProdDetails' id='SelectDates' class='btn btn-large SelectDates'><i class='icon-arrow-left' ></i> Change Dates</a>";
+             str+=prodDAO.OrderSummaryTable(cart,0);
+             //str+="<a href='#showProdDetails' id='SelectDates' class='btn btn-large SelectDates'><i class='icon-arrow-left' ></i> Change Dates</a>";
              str+="<a href='#showProdDetails' id='PlaceOrder'' role='button' style='padding-right:0'><span class='btn btn-large btn-success pull-right'>Place Order</span></a>";
              str+="</div>";
                return str;
@@ -920,39 +932,41 @@ public class LoginController {
 		           
 			System.out.println("in the PlaceOrderFinal controller");
 			
-			 Calendar date1=Calendar.getInstance();
-			 Calendar date2=Calendar.getInstance();
-		
-			 String day1=request.getParameter("Start_date").substring(8,10);
-			 String day2=request.getParameter("End_date").substring(8,10);
-			
-			 String month1=request.getParameter("Start_date").substring(5,7);
-			 String month2=request.getParameter("End_date").substring(5,7);
-			 
-		
-			 String year1=request.getParameter("Start_date").substring(0,4);
-			 String year2=request.getParameter("End_date").substring(0,4);
-			 
-			 
-			 date1.set(Integer.parseInt(year1),Integer.parseInt(month1),Integer.parseInt(day1));
-			 date2.set(Integer.parseInt(year2),Integer.parseInt(month2),Integer.parseInt(day2));
-			 
-			 long diff=date2.getTimeInMillis()-date1.getTimeInMillis();
-		     long diffInDays = diff / (24 * 60 * 60 * 1000);
-		     
-			
-			 String d1=""+year1+"-"+month1+"-"+day1;
-			 String d2=""+year2+"-"+month2+"-"+day2;
-			 
-			 System.out.println("date 1 is :"+d1);
-			 System.out.println("date 2 is :"+d2);
+//			 Calendar date1=Calendar.getInstance();
+//			 Calendar date2=Calendar.getInstance();
+//		
+//			 String day1=request.getParameter("Start_date").substring(8,10);
+//			 String day2=request.getParameter("End_date").substring(8,10);
+//			
+//			 String month1=request.getParameter("Start_date").substring(5,7);
+//			 String month2=request.getParameter("End_date").substring(5,7);
+//			 
+//		
+//			 String year1=request.getParameter("Start_date").substring(0,4);
+//			 String year2=request.getParameter("End_date").substring(0,4);
+//			 
+//			 
+//			 date1.set(Integer.parseInt(year1),Integer.parseInt(month1),Integer.parseInt(day1));
+//			 date2.set(Integer.parseInt(year2),Integer.parseInt(month2),Integer.parseInt(day2));
+//			 
+//			 long diff=date2.getTimeInMillis()-date1.getTimeInMillis();
+//		     long diffInDays = diff / (24 * 60 * 60 * 1000);
+//		     
+//			
+			 String d1=""+2017+"-"+12+"-"+29;
+			 String d2=""+2017+"-"+12+"-"+28;
+//			 
+//			 System.out.println("date 1 is :"+d1);
+//			 System.out.println("date 2 is :"+d2);
 			 String str="";
-			if(ordDAO.PlaceOrder(d1, d2,((int) diffInDays)+1, cart, c)>0)
+			 String response ="";
+			 if(ordDAO.PlaceOrder(d1, d2,((int) 0)+1, cart, c)>0)
 			{	str+="<div><h2 style='color: green'>Order Placed Successfully</h2></div>";
 				 str+="<div><div class='control-group'><div class='controls'><h4>Your address:</h4>"+c.getAddress()+", "+c.getCity()+", <br>"+c.getState()+"-"+c.getPincode()+".</P></div></div>";
 	             str+="<div class='control-group'><div class='controls'><h4>Your Phone:</h4><p>"+c.getContactNo()+".</P></div></div>";
-	             str+="<div class='control-group'>Your order is from this date: <div id='date1'>"+request.getParameter("Start_date")+"</div> Your order is till date:<div id='date2'>"+request.getParameter("End_date")+"</div></div>";
-	             str+=prodDAO.OrderSummaryTable(cart,((int) diffInDays)+1);
+	            // str+="<div class='control-group'>Your order is from this date: <div id='date1'>"+request.getParameter("Start_date")+"</div> Your order is till date:<div id='date2'>"+request.getParameter("End_date")+"</div></div>";
+	             str+=prodDAO.OrderSummaryTable(cart,0);
+	             response = prodDAO.OrderSummaryTable(cart,0);	
 	             cart.clear();
 	             str+="<a href='/NamkeenKeShaukeen/index.html' id='ContinueShopping' class='btn btn-large ContinueShopping'><i class='icon-arrow-left' ></i>Continue Shopping</a>";
 	             str+="</div>";
@@ -960,8 +974,8 @@ public class LoginController {
 			else
 			{
 				str+="<div><h1>Error in placing order plz try again</h1></div>";
+				response = str;
 			}
-			String response = prodDAO.OrderSummaryTable(cart,((int) diffInDays)+1);	
 			EmailUtil.sendEmail(response, c.getEmail(), c.getContactNo());
 			return str;
 		 }

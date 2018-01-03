@@ -72,7 +72,7 @@ public class OrdersDAOimpl implements OrdersDAO {
 		for(Map.Entry<Product, Integer> entry:t.entrySet()){  
 	    	Product p=entry.getKey();
 	    	int quantity=entry.getValue();
-	    	jdbcTemplate.update(Query3, new Object[]{id,p.getId(),quantity,p.getPrice()*quantity*days});
+	    	jdbcTemplate.update(Query3, new Object[]{id,p.getId(),quantity,p.getPrice()*quantity});
 		}
 		
 		
