@@ -187,7 +187,7 @@ public class LoginController {
 		
 		Login u=new Login(emailid, password);
 		CustDAO.loginCustomer(u);
-		
+		EmailUtil.welcomeCustomer("Welcome to Namkeen ke Shaukeens Please feel free to contact us for any queries", emailid);
 		System.out.println("Registered  user has credentials as"+u.getUsername()+""+u.getPassword()+".");
 		
 		return  new ModelAndView("index");

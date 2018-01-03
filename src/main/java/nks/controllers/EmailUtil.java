@@ -53,6 +53,41 @@ public final class EmailUtil {
 			throw new RuntimeException(e);
 		}
 	}
+	
+	public static void welcomeCustomer(String response,String toEmail) {
+
+		final String username = "namkeenkeshaukeens@gmail.com";
+		final String password = "R@tlam2017";
+
+		Properties props = new Properties();
+		props.put("mail.smtp.auth", "true");
+		props.put("mail.smtp.starttls.enable", "true");
+		props.put("mail.smtp.host", "smtp.gmail.com");
+		props.put("mail.smtp.port", "587");
+
+		Session session = Session.getInstance(props,
+		  new javax.mail.Authenticator() {
+			protected PasswordAuthentication getPasswordAuthentication() {
+				return new PasswordAuthentication(username, password);
+			}
+		  });
+
+		try {
+
+			Message message = new MimeMessage(session);
+			message.setFrom(new InternetAddress("ratlamkenamkeen@gmail.com"));
+			message.setRecipients(Message.RecipientType.TO,
+				InternetAddress.parse(toEmail));
+			message.setSubject("Welcome to NamkeenkeShaukeen");
+			message.setContent(response, "text/html; charset=utf-8");
+			Transport.send(message);
+
+			System.out.println("message sent successfully....");
+
+		} catch (MessagingException e) {
+			throw new RuntimeException(e);
+		}
+	}
 
 	public static void recievedContact(String response,String toEmail, String ownerMobileNo) {
 
