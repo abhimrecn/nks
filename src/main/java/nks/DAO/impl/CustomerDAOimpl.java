@@ -34,7 +34,7 @@ public class CustomerDAOimpl implements CustomerDAO {
 
 	@Override
 	public int loginCustomer(Login login) {
-		String Query1="insert into Login values(?,?,?)";
+		String Query1="insert into login values(?,?,?)";
 		return jdbcTemplate.update(Query1, new Object[]{login.getUsername(),login.getPassword(),3});
 		
 	}
