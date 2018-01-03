@@ -265,7 +265,7 @@
 								<div class="control-group">
 									<label class="control-label" for="inputLnam">Gender <sup>*</sup></label>
 									<div class="controls">
-										<input type="radio" name="gender" value="M"> Male
+										<input type="radio" name="gender" value="M" required> Male
 										&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 										<input type="radio" name="gender" value="F"> Female <br />
 
@@ -302,30 +302,23 @@
 								<div class="control-group">
 									<label class="control-label" for="city">City<sup>*</sup></label>
 									<div class="controls">
-										<select id="city" name="city">
-											<!-- <option value="pune">-</option> -->
-											<option value="pune">PUNE</option>
-										</select>
+										<input type="text" id="city" name="city"
+											placeholder="City" / required="required">
 									</div>
 								</div>
 								<div class="control-group">
 									<label class="control-label" for="state">State<sup>*</sup></label>
 									<div class="controls">
-										<select id="state" name="state">
-											<option value="Maharashtra">Maharashtra</option>
-								        </select>
+										<input type="text" id="state" name="state"
+											placeholder="state" / required="required">
 									</div>
 								</div>
 								<div class="control-group">
-									<label class="control-label" for="postcode">Zip /
-										Postal Code<sup>*</sup>
-									</label>
-									<select id="postcode" name="postcode" style="margin-left: 4%">
-									<option id="prodCat" value="411020">411020</option>
-									
-			
-									</select>
-									
+									<label class="control-label" for="postcode">Zip /Postal Code<sup>*</sup></label>
+									<div class="controls">
+									<input type="text" id="postcode" name="postcode" value="411020"
+												placeholder="postcode" / required="required">
+									</div>
 									
 								<!--  	<sql:setDataSource var="post" driver="com.mysql.jdbc.Driver" 
  										url="jdbc:mysql://localhost/sunrise" user="root" password="root"/> 
