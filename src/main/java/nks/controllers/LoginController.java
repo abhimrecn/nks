@@ -968,7 +968,7 @@ public class LoginController {
 	             str+=prodDAO.OrderSummaryTable(cart,0);
 	             response = prodDAO.OrderSummaryTable(cart,0);	
 	             cart.clear();
-	             str+="<a href='/NamkeenKeShaukeen/index.html' id='ContinueShopping' class='btn btn-large ContinueShopping'><i class='icon-arrow-left' ></i>Continue Shopping</a>";
+	             str+="<a href='/index.html' id='ContinueShopping' class='btn btn-large ContinueShopping'><i class='icon-arrow-left' ></i>Continue Shopping</a>";
 	             str+="</div>";
 			}
 			else
